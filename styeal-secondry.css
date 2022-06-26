@@ -1,0 +1,9 @@
+.japan {
+  width: 400px;
+  height: auto;
+  
+}
+.japan2{
+    display: flex;
+    justify-content: end;
+}
