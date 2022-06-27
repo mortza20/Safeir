@@ -1,10 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  direction: rtl;
 }
 body {
   background-color: #fafcff;
+  font-family: "Changa", sans-serif;
 }
 
 nav {
@@ -13,8 +13,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-right: 50px;
-  padding: top 10px;
+  padding: top 3x;
   box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.63);
 }
 
@@ -28,31 +27,91 @@ nav {
 .nav-a {
   list-style-type: none;
   display: inline-block;
-  margin: 0.8rem 1.5rem;
+  margin: 0.8rem 0.8rem;
   color: white;
   transition: 0.4s;
-  padding-top: 10px;
+  padding: 17px;
+  font-size: 24px;
+  font-weight: 900;
+  text-decoration: none;
 }
 .nav-a:hover {
   color: #052c4b;
 }
-.nav-ul {
-  padding-top: 10px;
-
-  display: flex;
-  align-items: center;
-}
 
 .logo {
-  padding: 15px;
+  padding: 5px;
+  width: 150px;
 }
 
-img {
-  opacity: 0.5;
+.plane {
   display: flex;
+  justify-content: end;
+  position: relative;
 }
-.img {
+.plane-img {
+  width: 700px;
+  height: auto;
+  transition: 00.4s;
+}
+.plane-img:hover {
+  width: 780px;
+}
+.about {
+  position: absolute;
+  bottom: 400px;
+  margin-right: 20px;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 0px 40px;
+  color: #052c4b;
+}
+.about p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.help {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* continents */
+
+* {
+  direction: rtl;
+}
+
+.continents {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 70px 0px;
+  position: relative;
+}
+.continents-name {
+  position: absolute;
+  bottom: 120px;
+  display: flex;
+  width: 100%;
+  gap: 550px;
+  justify-content: center;
+  color: #052c4b;
+}
+.continents-name h1:hover {
+  color: #4dabba;
+  cursor: pointer;
+}
+
+.asia-section {
+  margin: 60px;
+}
+.japan-img {
+  width: 400px;
+  height: auto;
+  border-radius: 200px;
+}
+.japan {
+  background-color: #4dabba32;
+  border-radius: 20px;
+  padding: 40px;
 }
