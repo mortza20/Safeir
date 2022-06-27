@@ -5,6 +5,7 @@
 body {
   background-color: #fafcff;
   font-family: "Changa", sans-serif;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -114,4 +115,21 @@ nav {
   background-color: #4dabba32;
   border-radius: 20px;
   padding: 40px;
+}
+.parias {
+  margin-top: 10px;
+  background-color: #4dabba32;
+  border-radius: 20px;
+  padding: 40px;
+}
+.maldieve {
+  margin-top: 10px;
+  background-color: #4dabba32;
+  border-radius: 20px;
+  padding: 40px;
+}
+.footer {
+  background-color: #4dabba;
+  width: 100%;
+  height: 400px;
 }
