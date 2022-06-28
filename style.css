@@ -278,3 +278,33 @@ nav {
   border-radius: 20px;
   padding: 40px;
 }
+
+/* gallery-section */
+
+.gallery-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 150px;
+}
+.gallery {
+  width: 85vw;
+  height: 60vmin;
+  display: flex;
+  gap: 5px;
+}
+
+.gallery img {
+  height: 100%;
+  flex: 1;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.6s;
+}
+
+.gallery img:hover {
+  flex: 4;
+}
