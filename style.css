@@ -21,6 +21,11 @@ nav {
   padding: top 3x;
   box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.63);
 }
+@media (max-width: 320px) {
+  .header nav {
+    display: none;
+  }
+}
 .about-main {
   display: flex;
   justify-content: space-between;
@@ -131,6 +136,15 @@ nav {
   font-size: 23px;
   font-weight: bolder;
 }
+.travling {
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+}
+.travling img {
+  width: 600px;
+  height: auto;
+}
 .footer {
   display: flex;
   background-color: #4dabba;
@@ -144,7 +158,6 @@ nav {
 .footer p {
   font-size: 22px;
   text-align: center;
-  padding-top: 20px;
 }
 .social-icon {
   display: flex;
@@ -174,6 +187,7 @@ nav {
 .continents {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 70px 0px;
   align-items: center;
 }
@@ -194,6 +208,14 @@ nav {
   text-align: center;
   color: #052c4b;
 }
+.text-hover {
+  color: #052c4b;
+  transition: 0.5s;
+}
+.text-hover:hover {
+  transform: scale(1.1);
+  color: #4dabba;
+}
 .europe-text {
   text-align: center;
   color: #052c4b;
@@ -202,8 +224,21 @@ nav {
   text-align: center;
   color: #052c4b;
 }
-.asia-section {
+.spher {
+  width: 500px;
+  height: auto;
+}
+.contiinentes-section {
   margin: 60px;
+}
+.img-center {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 15px;
+  transition: 0.5s;
 }
 .japan-img {
   width: 400px;
@@ -214,27 +249,13 @@ nav {
 .japan-img:hover {
   opacity: 0.7;
 }
-.img-center {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  gap: 15px;
-  transition: 0.5s;
-}
 
-.japan {
+.p-backgroundcoolr {
   background-color: #4dabba32;
   border-radius: 20px;
   padding: 40px;
 }
 
-.maldieve {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
 .maldive-img {
   width: 400px;
   height: auto;
@@ -244,12 +265,7 @@ nav {
 .maldive-img:hover {
   opacity: 0.7;
 }
-.malisia {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .malisia-img {
   width: 400px;
   height: auto;
@@ -259,12 +275,7 @@ nav {
 .malisia-img:hover {
   opacity: 0.7;
 }
-.Paris {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .french-img {
   width: 400px;
   height: auto;
@@ -274,12 +285,7 @@ nav {
 .french-img:hover {
   opacity: 0.7;
 }
-.Switzerland {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .switzerland-img {
   width: 400px;
   height: auto;
@@ -289,12 +295,7 @@ nav {
 .switzerland-img:hover {
   opacity: 0.7;
 }
-.namsa {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .namsa-img {
   width: 400px;
   height: auto;
@@ -304,12 +305,7 @@ nav {
 .namsa-img:hover {
   opacity: 0.7;
 }
-.Egypt {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .egypt-img {
   width: 400px;
   height: auto;
@@ -319,12 +315,7 @@ nav {
 .egypt-img:hover {
   opacity: 0.7;
 }
-.Somalia {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .somalia-img {
   width: 400px;
   height: auto;
@@ -334,12 +325,7 @@ nav {
 .somalia-img:hover {
   opacity: 0.7;
 }
-.Comoros {
-  margin-top: 10px;
-  background-color: #4dabba32;
-  border-radius: 20px;
-  padding: 40px;
-}
+
 .comar-img {
   width: 400px;
   height: auto;
