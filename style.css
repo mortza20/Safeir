@@ -308,3 +308,28 @@ nav {
 .gallery img:hover {
   flex: 4;
 }
+
+.shear-wraper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.button-wraper button {
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: #052c4b;
+  color: white;
+  font-family: "Changa", sans-serif;
+  font-size: 20px;
+  transition: 00.6s;
+  cursor: pointer;
+}
+
+.button-wraper button:hover {
+  border: #4dabba solid 3px;
+  background-color: #052b4b00;
+  color: #052c4b;
+}
