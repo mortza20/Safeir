@@ -56,7 +56,7 @@ nav {
   width: 150px;
 }
 
-.plane {
+.plane2 {
   display: flex;
   justify-content: end;
 }
@@ -265,6 +265,7 @@ nav {
 /* transport- section  */
 .transport {
   margin: 60px;
+  
 }
 .cars {
   background-color: #4dabba32;
@@ -278,7 +279,14 @@ nav {
   border-radius: 20px;
   padding: 40px;
 }
+.plane{
+  background-color: #4dabba32;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px 0px;
+ 
 
+}
 /* gallery-section */
 
 .gallery-wraper {
